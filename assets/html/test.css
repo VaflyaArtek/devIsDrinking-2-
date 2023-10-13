@@ -1,0 +1,30 @@
+.text-animation {
+    position: absolute;
+    max-width: 370px;
+}
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 40px;
+    background-color: #000;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.typed-text {
+    font-size: 35px;
+}
