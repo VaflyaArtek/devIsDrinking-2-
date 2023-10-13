@@ -1,30 +1,42 @@
-.text-animation {
-    position: absolute;
-    max-width: 370px;
+.programing-stats {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+    max-width: fit-content;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 8px 32px;
+    color: #023047;
+    transition: all 0.4s ease;
 }
 
-.cursor {
-    display: inline-block;
-    width: 2px;
-    height: 40px;
-    background-color: #000;
-    animation: blink 0.7s infinite;
+.chart-container {
+    width: 300px;
 }
 
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+.programing-stats:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
 }
 
-.typed-text {
-    font-size: 35px;
+.details ul {
+    padding: 0;
+}
+
+.details ul li {
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+.percentage {
+    font-weight: 700;
+    color: #e63946;
+}
+
+@media (max-width: 680px) {
+    .programing-stats{
+        flex-direction: column;
+        gap: 30px
+    }
 }
