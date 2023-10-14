@@ -1,0 +1,41 @@
+# Ignore Prettier configuration file
+.prettierrc
+
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled or minified JavaScript files
+*.min.js
+
+# Ignore minified CSS files
+*.min.css
+
+# Ignore log files
+*.log
+
+# Ignore any build or distribution directories
+dist/
+build/
+out/
+public/
+dist/
+target/
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+
+# Ignore operating system and temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore version control system directories (e.g., .git, .svn)
+.git/
+.svn/
+
+# Ignore package-lock.json (for Node.js projects)
+package-lock.json
+
+# Ignore Yarn's lock file (yarn.lock)
+yarn.lock

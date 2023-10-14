@@ -123,6 +123,12 @@
     max-width: 90vw;
 }
 
+@media (max-width: 1400px) {
+    .typed-text {
+        font-size: 3rem;
+    }
+}
+
 @media (max-width: 1180px) {
     .header-desc-content {
         flex-direction: column;
