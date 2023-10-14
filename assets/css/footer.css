@@ -54,6 +54,10 @@ footer .menu li a:hover {
     color: #fff;
 }
 
+.footer__link {
+    font-size: 2rem;
+}
+
 .footer__title {
     color: #eee;
     margin: auto;

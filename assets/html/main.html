@@ -10,6 +10,14 @@
 </head>
 
 <body>
+    <div class="popup" id="popup">
+	    <h2>Do you want to play music?</h2>
+	    <button id="yesButton">Yes</button>
+	    <button id="noButton">No</button>
+	    <br>
+	    <input type="range" id="volumeSlider" min="0" max="100" step="1" value="50">
+  	</div>
+  	<audio id="music" src="../music/gotta-be-honest.mp3" loop></audio>
     <div class="wrapper">
         <div class="content">
             <header id="header">
@@ -224,7 +232,7 @@
                     </div>
                 </section>
             </main>
-            <footer>
+            <footer id="footer">
                 <div class="waves">
                     <div class="wave" id="wave1"></div>
                     <div class="wave" id="wave2"></div>

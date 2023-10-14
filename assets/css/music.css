@@ -1,0 +1,30 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #78abe6c0;
+    z-index: 999;
+    opacity: 0.9;
+}
+
+#yesButton {
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+#yesButton,
+#noButton {
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+
+input[type="range"] {
+    width: 200px;
+}
